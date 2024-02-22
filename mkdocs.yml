@@ -34,3 +34,10 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/
 
+extra_css:
+  - assets/styles/extra.css
+
+markdown_extensions:
+  - def_list
+  - attr_list
+  - md_in_html
