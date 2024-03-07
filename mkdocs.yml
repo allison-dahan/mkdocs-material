@@ -24,7 +24,19 @@ theme:
         name: Switch to Light Mode
       primary: teal
       accent: lime
-
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -33,4 +45,3 @@ extra:
       link: https://twitter.com/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/
-
