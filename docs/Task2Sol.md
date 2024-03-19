@@ -14,7 +14,7 @@ Launch the Visual Studio Code (VS Code) application on your computer. Next you c
 2. Look for the extension icon on the **activity bar** located on the left side of the VS Code window.
 3. Click on the extension icon.
 
-<img src="/assets/image/activitybar.png" width=60% height=auto>
+<img src="/assets/images/activitybar.png" width=60% height=auto>
 
 **Option 2**
 
@@ -22,7 +22,7 @@ Launch the Visual Studio Code (VS Code) application on your computer. Next you c
 2. Click on the **View** menu.
 3. Select the "Extensions" tab from the dropdown menu.
 
-<img src="/assets/image/topbar.png" width=60% height=auto>
+<img src="/assets/images/topbar.png" width=60% height=auto>
 
 **Option 3**
 
@@ -37,7 +37,7 @@ Type the name or keywords related to the extension you are looking for and press
 Browse through the search results and select the extension that best fits your requirements.  
 For example, if you're a first-year student, you might choose the "Git Graph" extension for GitHub integration or "Code Spell Check" for improving your code assignments.
 
-<img src="/assets/image/extensionsearch.png" width=60% height=auto>
+<img src="/assets/images/extensionsearch.png" width=60% height=auto>
 
 1. Open the extension marketplace.
 2. Search at the search bar.
@@ -49,7 +49,7 @@ On the extension page,
 1. lick the **Install** button to initiate the installation process.
 2. Wait for the installation to complete.
 
-<img src="/assets/image/install.png" width=60% height=auto>
+<img src="/assets/images/install.png" width=60% height=auto>
 
 ### 4. Verify installation
 
@@ -58,7 +58,7 @@ Once the installation is finished, you can verify by checking the list of instal
 1. Click on the Extensions icon in the Activity Bar (or use the shortcut Ctrl+Shift+X)
 2. Check the installed extensions.
 
-<img src="/assets/image/installed.png" width=60% height=auto>
+<img src="/assets/images/installed.png" width=60% height=auto>
 
 ### 5. Update extensions (if needed)
 
