@@ -1,6 +1,6 @@
 # Set Up
 
-## Overview
+## **Overview**
 
 In this section, you will learn how to set up and run a new JavaScript file on Visual Studio Code (VSCode). The method for setting up differs for each programming language. JavaScript, being the primary programming language you'll encounter in your first term as Full Stack Web Development (FSWD) students, requires specific setup steps to ensure a smooth development experience.
 
@@ -23,7 +23,7 @@ The terminal, also known as console or command line, enables users to interact w
 #### Accessing the Terminal in VSCode
 
 - Mac: " Cmd + J " or " Cmd+` "
-- Windows/Linux: " Cmd + J " or " Cmd+` "
+- Windows/Linux: " Ctrl + J " or " Ctrl + ` "
 
 Alternatively, navigate through the menu bar: " View > Terminal "
 

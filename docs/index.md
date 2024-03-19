@@ -1,4 +1,4 @@
-# Introduction to VSCode: From Setup to Collaboration
+# Introduction to VSCode: From Setup to Collaboration 
 
 Welcome! 👋 This comprehensive guide is designed to usher you into the extensive capabilities of Visual Studio Code (VSCode), a code editor that's beloved by developers worldwide for its versatility and adaptability.
 
@@ -34,6 +34,6 @@ With everything set, you're now ready to explore VSCode. Each section of this gu
 
 The documentation will include a message block to give you some tips.
 
-!!! Info
+??? tip 
 Indicates additional information or tips.
 
