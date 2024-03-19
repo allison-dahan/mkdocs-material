@@ -34,3 +34,13 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/
 
+markdown_extensions:
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
