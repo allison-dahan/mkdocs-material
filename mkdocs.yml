@@ -54,3 +54,11 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/
 
+nav:
+  - Home: index.md
+  - Set up: Task1Allison.md
+  - Extensions Marketplace: Task2Sol.md
+  - Live Share: Task3Max.md
+  - Themes & Customization: Task4Christine.md
+  - Troubleshoot: Troubleshoot.md
+  - Glossary: GlossaryAllison.md
