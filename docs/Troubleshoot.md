@@ -1,4 +1,4 @@
-# Troubleshooting 
+# Troubleshooting
 
 ## Issue #1: File Not Found
 
@@ -7,10 +7,12 @@
 **Possible Cause:** Your terminal is not in the same directory as the JavaScript file you're trying to run.
 
 **How to Fix:**
+
 1.  Use `cd` command in the terminal to navigate to the same directory as your file.
 2.  Use `ls` command in the terminal and check that your JavaScript file is listed to verify you're in the right location.
 
 ## Issue #2: Command's Not Working
+
 ![Checking the Environment in VSCode's Terminal](assets/images/environment.png)
 
 VSCode's terminal can use different shells (e.g., Bash, Zsh, PowerShell). Ensure you're using one compatible with the commands provided (Bash, Zsh, or PowerShell are recommended). You can switch the shell by clicking on the dropdown menu in the terminal's toolbar and selecting your preferred shell.
@@ -21,9 +23,9 @@ VSCode's terminal can use different shells (e.g., Bash, Zsh, PowerShell). Ensure
 
 **How to Fix:**
 
-1. Open Terminal
+1. Open terminal
 2. Run the command: `exit`. This will exit most environments.
-3. Restart Visual Studio Code. 
+3. Restart Visual Studio Code.
 
 ## Issue #3: Live Share being unresponsive
 
@@ -32,7 +34,18 @@ VSCode's terminal can use different shells (e.g., Bash, Zsh, PowerShell). Ensure
 **Possible Cause:** Internal bugs with the Live Share software
 
 **How to Fix:**
+
 1.  Run the command > Live Share: Repair Installation in the command terminal.
 
+## Issue #4: VS Code extensions stopped working
 
+**Symptom:** No extensions are working
 
+**Possible Cause:** Pc shut down with VS Code open
+
+**How to Fix:**
+
+1. Open terminal
+2. Run: `Disable All Extension`
+3. Then run: `Enable All Extensions`
+4. Restart Visual Studio Code
