@@ -12,7 +12,6 @@
 
 ## Issue #2: Command's Not Working
 ![Checking the Environment in VSCode's Terminal](assets/images/environment.png)
-Fig 1. Checking the Environment in VSCode's Terminal
 
 VSCode's terminal can use different shells (e.g., Bash, Zsh, PowerShell). Ensure you're using one compatible with the commands provided (Bash, Zsh, or PowerShell are recommended). You can switch the shell by clicking on the dropdown menu in the terminal's toolbar and selecting your preferred shell.
 
@@ -25,6 +24,15 @@ VSCode's terminal can use different shells (e.g., Bash, Zsh, PowerShell). Ensure
 1. Open Terminal
 2. Run the command: `exit`. This will exit most environments.
 3. Restart Visual Studio Code. 
+
+## Issue #3: Live Share being unresponsive
+
+**Symptom:** Nothing happens when you click the "Share" and "Join" buttons.
+
+**Possible Cause:** Internal bugs with the Live Share software
+
+**How to Fix:**
+1.  Run the command > Live Share: Repair Installation in the command terminal.
 
 
 

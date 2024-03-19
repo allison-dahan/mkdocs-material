@@ -18,8 +18,6 @@ Node.js is a runtime environment that allows you to run JavaScript code outside 
 
 ![VS Code's Terminal](assets/images/terminal.png)
 
-Fig 1. Visual Studio Code's Terminal
-
 The terminal, also known as console or command line, enables users to interact with your computer's operating system through text commands. It's important for file management, installing packages and executing scripts.
 
 #### Accessing the Terminal in VSCode
@@ -44,7 +42,6 @@ Familiarize yourself with basic terminal commands to navigate and manage your pr
 In VSCode, there are multiple methods to create new files and folders, making it flexible for developers to organize their projects. I recommend using Method 1 first since it is the most common method.
 
 ![Identifying parts of Visual Studio Code](assets/images/overview.png)
-Fig. # Characteristics of Visual Studio Code
 
 The figure above will help to visualize the areas where you can create a new file.
 
@@ -103,7 +100,6 @@ By following these steps, you will have a working setup for developing and runni
 ### Node REPL
 
 ![Node REPL in the Terminal](assets/images/noderepl.png)
-Fig. # Node REPL in the Terminal
 
 The Node.js REPL(Read-Evaluate-Print Loop) is an interactive environment that allows you to run JavaScript code without having to write an application. Entering this environment is useful for debugging, testing or experimenting with JavaScript code.
 
