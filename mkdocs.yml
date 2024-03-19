@@ -24,6 +24,10 @@ theme:
         name: Switch to Light Mode
       primary: teal
       accent: lime
+
+extra_css:
+  - assets/styles/extra.css
+
 markdown_extensions:
   - def_list
   - attr_list
@@ -49,3 +53,4 @@ extra:
       link: https://twitter.com/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/
+
