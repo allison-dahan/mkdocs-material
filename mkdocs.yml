@@ -13,17 +13,17 @@ theme:
     - content.tabs.copy
   language: en
   palette:
-    - scheme: default
+    - scheme: userDocs
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to Dark Mode
-      primary: teal
-    - scheme: slate
+      primary: custom
+    - scheme: darkMode
       toggle:
         icon: material/toggle-switch
         name: Switch to Light Mode
-      primary: teal
-      accent: lime
+      primary: custom
+      accent: custom
 
 extra_css:
   - assets/styles/extra.css
