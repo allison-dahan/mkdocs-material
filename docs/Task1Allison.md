@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-In this section, you will learn how to set up and run a new JavaScript file on Visual Studio Code (VSCode). The method for setting up differs for each programming language. JavaScript, being the primary programming language you'll encounter in your first term as Full Stack Web Development (FSWD) students, requires specific setup steps to ensure a smooth development experience.
+In this section, you will learn how to set up and run a new JavaScript file on Visual Studio Code (VSCode). The method for setting up differs for each programming language. JavaScript, being the primary programming language you'll encounter in your first term as Full Stack Web Development (FSWD) students, requires specific steps to ensure a smooth development experience.
 
 ## **Installation & Set Up**
 
@@ -14,74 +14,42 @@ Before diving into coding, ensure you have the necessary tools installed:
 
 Node.js is a runtime environment that allows you to run JavaScript code outside of a browser, essential for testing and running your JavaScript projects.
 
-### Using the Terminal
 
-![VS Code's Terminal](assets/images/terminal.png)
-
-The terminal, also known as console or command line, enables users to interact with your computer's operating system through text commands. It's important for file management, installing packages and executing scripts.
-
-#### Accessing the Terminal in VSCode
-
-- Mac: " Cmd + J " or " Cmd+` "
-- Windows/Linux: " Ctrl + J " or " Ctrl + ` "
-
-Alternatively, navigate through the menu bar: " View > Terminal "
-
-#### Basic Terminal Commands
-
-Familiarize yourself with basic terminal commands to navigate and manage your projects:
-
-- `pwd` (Print Working Directory): Displays the current directory path
-- `ls` (List): Lists all files and directories in the current directory
-- `cd <directory>` (Change Directory): Moves the terminal's focus to another directory. Replace `<directory>` with the path to the target directory.
-- `mkdir <directory name>` (Make Directory): Creates a new directory.
-- `touch <file_name>` (Touch): Creates a new file if it doesn't exist
 
 ## Creating a New File
 
 In VSCode, there are multiple methods to create new files and folders, making it flexible for developers to organize their projects. I recommend using Method 1 first since it is the most common method.
 
-![Identifying parts of Visual Studio Code](assets/images/overview.png)
 
 The figure above will help to visualize the areas where you can create a new file.
 
 ### **Method 1: Using the Menu Bar**
 
-1. In your menu bar, go to `File > New File`.
+1. In your menu bar, go to File > New File.
 
-2. It will direct you to the command palette. Enter your filename with a `.js` extension, indicating it's a JavaScript file. For example, `example.js`.
+![File Tab in the Menu Bar](assets/images/menubar.png)
+
+It will direct you to the command palette. 
+
+2. Enter your filename with a `.js` extension, indicating it's a JavaScript file. For example, `example.js`.
+
+![VS Code's Command Palette](assets/images/commandPalette.png)
 
 3. A file explorer window will pop up, save your file in the desired location.
 
----
 
-### **Method 2: Using the Explorer**
-
-1. Open the Explorer: Click on the Explorer icon on the Activity Bar (the side bar on the far left side), or use the shortcut Ctrl+Shift+E (Windows/Linux) or Cmd+Shift+E (Mac).
-
-2. Right-click on the folder within the Explorer where you want to create your new file.
-
-3. Select New File from the context menu.
-
-4. Enter the file name, including its extension (e.g., script.js for a JavaScript file), and press Enter.
 
 ---
 
-### **Method 3: Using the Command Palette**
+### **Method 2: Using the Command Palette**
 
 1. Open the Command Palette: Press F1 or Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
 
-2. Type > File: New File and press Enter.
+![Command Palette](assets/images/commandPalette.png)
 
-3. Save the file (Ctrl+S or Cmd+S) in your desired location, specifying the name and extension.
+2. Type `> File: New File` and press `Enter`.
 
----
-
-### **Method 4: Using the Terminal**
-
-1. Open the Terminal: Use the shortcut Ctrl+` (Windows/Linux) or Cmd+` (Mac), or navigate through the menu View > Terminal.
-
-2. Use the `touch` command followed by the file name and extension, e.g., `touch index.js`, to create a new JS file.
+3. Save the file (For PC,`Ctrl+S` or Mac,`Cmd+S`) in your desired location, specifying the name and extension.
 
 ---
 
@@ -91,7 +59,11 @@ Now that you have created a new JavaScript file, you can write your JavaScript c
 
 1. Type your JavaScript code into this new file. For this example, use `console.log("Hello World");` to test that everything is working.
 
-2. In the terminal, type `node <filename.js>` to execute your JavaScript file. Replace `<filename.js>` with the name of your file.
+![VS Code's Terminal](assets/images/terminal.png)
+
+1. Open the Terminal. Use the shortcut `Ctrl+ J` (Windows/Linux) or `Cmd+ J` (Mac), or navigate through the menu View > Terminal.
+
+2. Type `node <filename.js>` to execute your JavaScript file. Replace `<filename.js>` with the name of your file.
 
 If successful, the terminal should return an output of: `Hello World`.
 
@@ -110,9 +82,9 @@ To enter this environment:
 1. Run the command: `node` in your terminal.
 2. Test out whatever JavaScript code you would like.
 
-To exit this environment, there are a few methods:
+To exit this environment, there are two methods:
 
-**Method 1:** Commands
+**Method 1:** Using Commands
 
 1. Enter `.exit` in your terminal.
 
@@ -121,3 +93,17 @@ To exit this environment, there are a few methods:
 - Entering `Ctrl + C` once, will terminate the current command.
 - Entering `Ctrl + C` twice, will exit the REPL if a current command isn't running.
 - Entering `Ctrl + D`, will exit the REPL.
+
+### Using the Terminal
+
+The terminal, also known as console or command line, enables users to interact with your computer's operating system through text commands. It's important for file management, installing packages and executing scripts.
+
+#### Basic Terminal Commands
+
+Familiarize yourself with basic terminal commands to navigate and manage your projects:
+
+- `pwd` (Print Working Directory): Displays the current directory path
+- `ls` (List): Lists all files and directories in the current directory
+- `cd <directory>` (Change Directory): Moves the terminal's focus to another directory. Replace `<directory>` with the path to the target directory.
+- `mkdir <directory name>` (Make Directory): Creates a new directory.
+- `touch <file_name>` (Touch): Creates a new file if it doesn't exist
