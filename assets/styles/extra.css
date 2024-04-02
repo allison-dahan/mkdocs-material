@@ -1,0 +1,19 @@
+[data-md-color-scheme="userDocs"]  {
+    --md-primary-fg-color: #f17e7e;
+    --md-primary-bg-color: #ffffff;
+    --md-default-bg-color: #FFF1EB;
+    --md-typeset-a-color: #FA9E9E;
+    --md-default-fg-color--light: #000000;
+    --md-accent-fg-color: #863248;
+
+}
+[data-md-color-scheme="darkMode"] {
+    --md-primary-fg-color: #4C0223;
+    --md-primary-bg-color:  #ffffff;
+    --md-default-bg-color: #29001E;
+    --md-default-fg-color--light: #ffffff;
+    --md-typeset-color: #ffffff;
+    --md-typeset-a-color: #FA9E9E;
+    --md-code-bg-color: #FFEAE1;
+    --md-accent-fg-color: #F16F6F;
+}
